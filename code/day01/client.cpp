@@ -22,8 +22,13 @@ int main() {
     //bind(sockfd, (sockaddr*)&serv_addr, sizeof(serv_addr)); 客户端不进行bind操作
 
     connect(sockfd, (sockaddr*)&serv_addr, sizeof(serv_addr));    
-    
+    // print(sockfd);
     return 0;
   // 测试更改
+
+  // 测试修复
+
+
+  
 
 }
